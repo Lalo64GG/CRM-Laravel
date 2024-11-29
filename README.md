@@ -28,7 +28,7 @@ Este proyecto tiene como objetivo construir un sistema básico de CRM (Customer 
 1.  **Clonar el repositorio**
     
     ```
-    git clone https://github.com/tuusuario/crm-laravel.git
+    [git clone https://github.com/Lalo64GG/CRM-Laravel.git
     cd crm-laravel
     ```
     
