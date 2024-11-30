@@ -7,6 +7,13 @@ use App\Models\Clients;
 
 class ClientsController extends Controller
 {
+
+    public function __construct()
+    {
+        //* Asegura que solo que solo usuarios autenticados puedan acceder al controlador
+        // $this->middleware/
+    }
+
     public function index()
     {
         $clients = Clients::all();

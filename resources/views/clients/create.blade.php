@@ -1,6 +1,4 @@
-@extends('layouts.app')
-
-@section('content')
+<x-app-layout>
 <div class="container mx-auto px-6 py-8">
     <h1 class="text-3xl font-semibold text-gray-800 mb-4">Crear Cliente</h1>
     <form action="{{route('clients.store')}}" method="POST">
@@ -33,4 +31,4 @@
         </div>
     </form>
 </div>
-@endsection
+</x-app-layout>
